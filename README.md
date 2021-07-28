@@ -6,10 +6,14 @@
 <ul>
   <li>目前实现的功能有：自动轮播、左右按钮点击切换、底部小圆点点击切换</li>
   <li>没有引用第三方插件库，原生js，封装一个Slideshow构造函数，在实例化对象时动态生成轮播图，代码量200行</li>
-  <li>自己写了轮播图部分的CSS样式，可以在此基础上修改为自己喜欢的样式</li>
+  <li>作者预设置了轮播图部分的CSS样式，可以在此基础上修改为自己喜欢的样式</li>
 </ul>
 <h2>展示界面&源码获取</h2>
 <ul>
-  <li>演示地址：<a href = "https://eatpear.github.io/slideShow/test.html" target = "_blank">在线浏览地址</a></li>
-  <li>github地址：<a href = "https://github.com/eatpear/slideShow/tree/master" target = "_blank">仓库地址</a></li>
+  <li>演示地址：<a href = "https://eatpear.github.io/slideShow/test.html">在线浏览地址</a></li>
+  <li>github地址：<a href = "https://github.com/eatpear/slideShow/tree/master">仓库地址</a></li>
 </ul>
+<h2>使用</h2>
+复制github仓库下面，js文件下的slideShow.js放到自己项目文件中
+复制github仓库下面，css文件下的slideShow.css放到自己项目文件中
+ 
