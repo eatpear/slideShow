@@ -10,6 +10,6 @@
 </ul>
 <h2>展示界面&源码获取</h2>
 <ul>
-  <li>演示地址：<a href = "https://eatpear.github.io/slideShow/test.html">在线浏览地址</a></li>
-  <li>github地址：<a href = "https://eatpear.github.io/slideShow">仓库地址</a></li>
+  <li>演示地址：<a href = "https://eatpear.github.io/slideShow/test.html" target = "_blank">在线浏览地址</a></li>
+  <li>github地址：<a href = "https://github.com/eatpear/slideShow/tree/master" target = "_blank">仓库地址</a></li>
 </ul>
