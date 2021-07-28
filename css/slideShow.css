@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slideShowClient {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideShowClient .slideShowAll {
+    position: relative;
+}
+
+.slideShowClient .slideShowAll .slideShowItem {
+    float: left;
+}
+
+.slideShowClient .slideShowAll .slideShowItem img {
+    width: 100%;
+}
+
+.slideShowClient .slideShowTool {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+.slideShowClient .slideShowTool .slideShowSpot {
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    background: #999;
+    display: inline-block;
+    margin: .3rem;
+    opacity: .6;
+    transition: background-color .6s;
+}
+
+.slideShowClient .slideShowTool .slideShowSpot:hover {
+    background-color: #FF6600;
+    cursor: pointer;
+}
+
+.slideShowClient .slideShowTool .slideShowSpot-active {
+    background-color: #FF6600;
+}
+
+.slideShowClient .slideShow-btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -3rem;
+    width: 3rem;
+    height: 6rem;
+    background: transparent;
+    opacity: .6;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 6rem;
+    text-align: center;
+    transition: background-color .6s;
+}
+
+.slideShowClient .slideShow-btn:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.slideShowClient .slideShow-btn-left {
+    left: 0;
+}
+
+.slideShowClient .slideShow-btn-right {
+    right: 0;
+}
+
+/* 响应式：width <= 768px */
+/* @media screen and (max-width:768px) {
+    .slideShowClient .slideShow-btn {
+      display: none;
+    }
+  } */

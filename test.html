@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideShow轮播图插件</title>
+    <link rel="stylesheet" href="css/slideShow.css">
+    <style>
+        #box {
+            margin: 50px auto;
+            width: 500px;
+            height: 375px;
+            /* border: 5px solid skyblue; */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"></div>
+    <!-- 要放在自定义js代码的前面 -->
+    <script src="js/slideShow.js"></script>
+    <script>
+        var box = document.querySelector("#box");
+        var imagesUrlAndHref = [{
+            imgSrc: 'images/1.webp',
+            linkHref: "#"
+        }, {
+            imgSrc: 'images/2.webp',
+            linkHref: '#'
+        }, {
+            imgSrc: 'images/3.webp',
+            linkHref: '#'
+        }, {
+            imgSrc: 'images/4.webp',
+            linkHref: '#'
+        }, {
+            imgSrc: 'images/5.webp',
+            linkHref: '#'
+        }];
+        var slideShow = new Slideshow(box, imagesUrlAndHref, {
+            duration: 800, // 动画过渡时间，默认为800ms
+            intervalTime: 5000, // 图片切换时间，默认为5s
+            timingFunction: 'linear',//动画运动函数
+        });
+    </script>
+</body>
+
+</html>
